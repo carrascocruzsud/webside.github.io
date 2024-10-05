@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Whitewater Rafting</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1c3dfc;
+            --secondary-color: #ff0000;
+            --accent1-color: #FF4500;
+            --accent2-color: #ebc90b;
+        }
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary-color);
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            width: 150px;
+            height: auto;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        .hero {
+            position: relative;
+            background-image: url('path/to/your/hero-image.jpg');
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            align-items: flex-end;
+            padding: 20px;
+        }
+        .hero h1 {
+            margin: 0;
+        }
+        .hero article {
+            margin-left: 20px;
+            max-width: 300px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--secondary-color);
+        }
+        footer a {
+            margin: 0 10px;
+        }
+        .history, .adventure {
+            margin: 20px 0;
+        }
+        .adventure img {
+            width: calc(20% - 10px);
+            margin: 5px;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            .adventure img {
+                width: calc(50% - 10px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.avif" alt="Company Logo">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="adventures.html">Adventures</a>
+        <a href="contact.html">Contact</a> 
+    </nav>
+</header>
+
+<main>
+    <div class="hero">
+        <h1>Whitewater Rafting Adventures</h1>
+        <article>
+            <img src="sotfware development 4.jpg" alt="Rafting" style="width: 150px; height: auto;">
+            <p>Join us for an unforgettable experience on the rapids! Our expert guides will ensure you have the time of your life.</p>
+        </article>
+    </div>
+
+    <section class="history">
+        <h2>History</h2>
+        <p>Founded in 2024, Whitewater Rafting has been dedicated to providing thrilling adventures for all levels of experience.</p>
+    </section>
+
+    <section class="adventure">
+        <h2>Adventure Awaits You</h2>
+        <div>
+            <img src="sotfware development.jpg" alt="Adventure 1">
+            <img src="sotfware development 1.jpg" alt="Adventure 2">
+            <img src="sotfware development 2.jpg" alt="Adventure 3">
+            <img src="sotfware development 3.jpg" alt="Adventure 4">
+            <img src="sotfware development 4.jpg" alt="Adventure 5">
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Whitewater Rafting. Created by Your Name.</p>
+    <a href="#"><img src="Logo_de_Facebook.png" alt="Facebook" style="width: 30px;"></a>
+    <a href="#"><img src="twitter logo.jpeg" alt="Twitter" style="width: 30px;"></a>
+    <a href="#"><img src="Instagram_logo.png" alt="Instagram" style="width: 30px;"></a>
+</footer>
+
+</body>
+</html>
